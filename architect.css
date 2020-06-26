@@ -1,0 +1,267 @@
+@font-face{ font-family:'verdana';
+ src:url('Verdana.ttf');
+}
+body{
+	font-family:'verdana',sans-serif;
+	margin:0px;
+	padding: 0px;
+}
+
+/*-------------------NAVBAR-------------------------------*/
+.navbar
+{
+	position:fixed;
+	top:0px;
+	background-color:white;
+    color:black;
+	width:100%;
+	box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}
+
+ .navigation{ 
+	padding:14px 16px; 
+ }
+.navbar a{
+
+ 	text-decoration:none;
+    letter-spacing: 4px;
+    color:inherit;
+    padding:8px 16px;
+    vertical-align: middle;
+  }
+
+/*-------------------Left-side ----------------------*/
+#left-side{
+ 	
+ 	color:inherit;
+ 	float:left;
+ }
+/*-------------------right-side ----------------------*/
+
+#right-side {
+ 	
+ 	color:inherit;
+ 	float:right;
+ }
+b
+{
+	font-weight:bolder;
+}
+.navbar a:hover
+ { 
+ 	background-color:#bfbbbb;
+ }
+/*---------------Image-----------------*/
+.image
+{
+	height: 95vh;
+	position: relative;
+	background-image: url(architect.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+
+.h1-tag
+{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: 36px;
+	letter-spacing: 4px;
+	line-height: 1.5;
+	color:rgb(255, 255, 255);
+	opacity: 0.75;
+}
+
+.img-initials
+{	font-weight: bolder;
+	background-color: rgb(0, 0, 0);
+	display: inline-block;
+	padding: 8px 16px;
+	text-transform: uppercase;
+	
+}
+
+.img-name
+{	display: inline-block;
+	line-height: 2;
+	
+	font-weight: 300;
+}
+
+/*----------Project--------*/
+.projects
+{
+	padding:8px 16px;
+}
+
+.project-title
+{
+	padding:32px 16px;
+}
+.titles
+{
+	font-size:24px;
+	padding:16px 0px;
+	margin:10px 0px;
+	font-weight:300;
+	line-height: 1.5em;
+}
+hr
+{
+	background-color:#ccc;
+}
+/*-----------------Project Images----------------------*/
+
+.designs
+{
+	padding:8px 8px;
+}
+
+.design-1,.design-2,.design-3,.design-4,.design-5,.design-6,.design-7,.design-8
+{  
+	display:inline-block;
+	padding: 8px 8px;
+	width:23%;
+}
+
+.designs .img-text
+{
+	position:relative;
+	width:100%;
+
+}
+.design1-header,.design2-header,.design3-header,.design4-header,.design5-header,.design6-header,.design7-header,.design8-header
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	padding:8px 16px;
+	background-color: black;
+	color:white;
+}
+
+/*-------------------------About--------------------*/
+.About
+{
+	padding:8px 16px;
+}
+
+.About-title
+{
+	padding:32px 16px;
+}
+p
+{
+	padding:8px 0px;
+	font-size:15px;
+	font-weigt:350;
+	line-height: 1.5em;
+	margin:10px 0px;
+}
+
+/*-----------------people--------------*/
+.people
+{
+	padding: 0px 8px;
+}
+
+.person1,.person2,.person3,.person4
+{	
+	display:inline-block;
+	padding:8px 8px;
+	width:23%;
+}
+.button
+{
+	text-align: center;
+	padding:8px 16px;
+	background-color: #e5e1e1;
+	vertical-align: middle;
+}
+.button a
+{
+	color:black;
+	text-decoration:none;
+
+}
+.button:hover
+{
+	background-color: #bfbbbb;
+}
+h4
+{
+	color: #838487;
+}
+
+/*---------------Contact form----------------*/
+.contact
+{
+	padding: 8px 16px;
+}
+
+.contact-title
+{
+	padding: 32px 16px;
+	padding-bottom: 8px;
+}
+
+
+/*--------Form-input-------------*/
+.form-input
+{
+	padding:0px 16px;
+}
+
+input
+{
+	padding:8px 8px;
+	border:1px solid #bfbbbb;
+	display: block;
+}
+.form-input .email,.subject,.comment
+{
+	margin:10px 0px;
+	width:100%;
+}
+.firstname
+{
+	width:100%;
+}
+::placeholder
+{
+	font-size:15px;
+}
+
+.submit
+{
+	padding:16px 16px;
+	color:white;
+	background-color: black;
+
+}
+.submit:hover
+{
+	background-color: #bfbbbb;
+	color:black;
+}
+
+/*------------footer-------------*/
+.footer
+{
+	padding:16px 32px;
+	padding-bottom: 8px;
+}
+
+.end
+{
+	padding:32px 32px;
+	text-align: center;
+	background-color: black;
+	color:white;
+	vertical-align: middle;
+}
